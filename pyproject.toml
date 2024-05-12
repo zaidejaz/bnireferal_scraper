@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "bnireferal-scraper"
+version = "0.1.0"
+description = ""
+authors = ["zaidejaz <zaidejaz521@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+pandas = "^2.2.2"
+bs4 = "^0.0.2"
+requests = "^2.31.0"
+openpyxl = "^3.1.2"
+selenium = "^4.20.0"
+chromedriver-autoinstaller = "^0.6.4"
+colorama = "^0.4.6"
+pyinstaller = "^6.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
